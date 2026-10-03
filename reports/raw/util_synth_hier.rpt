@@ -1,0 +1,82 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Sat Oct  3 18:09:59 2026
+| Host         : tommey-virtual-machine running 64-bit Ubuntu 22.04.5 LTS
+| Command      : report_utilization -hierarchical -hierarchical_depth 2 -file /home/tommey/pqc-fpga/ml-dsa/work/../reports/util_synth_hier.rpt
+| Design       : combined_top
+| Device       : xczu5ev-sfvc784-2-e
+| Speed File   : -2
+| Design State : Synthesized
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------------+---------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+|           Instance          |              Module             | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | URAM | DSP Blocks |
++-----------------------------+---------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+| combined_top                |                           (top) |      56979 |      55020 |       0 | 1959 | 29248 |     29 |      0 |    0 |         16 |
+|   (combined_top)            |                           (top) |       1276 |        241 |       0 | 1035 |  1361 |      0 |      0 |    0 |          0 |
+|   BRAM_0                    |                   dual_port_ram |        383 |        383 |       0 |    0 |     0 |     11 |      0 |    0 |          0 |
+|   BRAM_1                    |   dual_port_ram__parameterized0 |        630 |        630 |       0 |    0 |     0 |      3 |      0 |    0 |          0 |
+|   BRAM_2                    | dual_port_ram__parameterized0_0 |        244 |        244 |       0 |    0 |     0 |      3 |      0 |    0 |          0 |
+|   BRAM_3                    | dual_port_ram__parameterized0_1 |        319 |        319 |       0 |    0 |     0 |      3 |      0 |    0 |          0 |
+|   BRAM_4                    | dual_port_ram__parameterized0_2 |         59 |         59 |       0 |    0 |     0 |      3 |      0 |    0 |          0 |
+|   BRAM_5                    | dual_port_ram__parameterized0_3 |        390 |        390 |       0 |    0 |     0 |      3 |      0 |    0 |          0 |
+|   BRAM_6                    | dual_port_ram__parameterized0_4 |        159 |        159 |       0 |    0 |     0 |      3 |      0 |    0 |          0 |
+|   CHALLENGE_SAMPLER         |                           gen_c |       2297 |       2233 |       0 |   64 |  1327 |      0 |      0 |    0 |          0 |
+|   CREATE_HINT               |                        makehint |       2588 |       2588 |       0 |    0 |   931 |      0 |      0 |    0 |          0 |
+|   DECODER                   |                         decoder |       2631 |       2631 |       0 |    0 |   244 |      0 |      0 |    0 |          0 |
+|   DECOMPOSER                |                 decomposer_unit |       1723 |       1699 |       0 |   24 |   670 |      0 |      0 |    0 |          0 |
+|     (DECOMPOSER)            |                 decomposer_unit |          1 |          1 |       0 |    0 |     0 |      0 |      0 |    0 |          0 |
+|     genblk1[0].COEFF_DECOMP |                coeff_decomposer |        425 |        419 |       0 |    6 |   165 |      0 |      0 |    0 |          0 |
+|     genblk1[1].COEFF_DECOMP |            coeff_decomposer_107 |        422 |        416 |       0 |    6 |   165 |      0 |      0 |    0 |          0 |
+|     genblk1[2].COEFF_DECOMP |            coeff_decomposer_108 |        436 |        430 |       0 |    6 |   170 |      0 |      0 |    0 |          0 |
+|     genblk1[3].COEFF_DECOMP |            coeff_decomposer_109 |        439 |        433 |       0 |    6 |   170 |      0 |      0 |    0 |          0 |
+|   ENCODER                   |                         encoder |       2564 |       2564 |       0 |    0 |   465 |      0 |      0 |    0 |          0 |
+|   GEN_Y                     |                  expandmask_ext |       1974 |       1846 |       0 |  128 |   628 |      0 |      0 |    0 |          0 |
+|     (GEN_Y)                 |                  expandmask_ext |        533 |        469 |       0 |   64 |   246 |      0 |      0 |    0 |          0 |
+|     SAMPLER_Y               |                   sampler_y_ext |       1441 |       1377 |       0 |   64 |   382 |      0 |      0 |    0 |          0 |
+|   HINT_APPLIER              |                         usehint |       6759 |       6759 |       0 |    0 |  2792 |      0 |      0 |    0 |          0 |
+|   PUBLIC_SAMPLER            |                       gen_a_ext |       1921 |       1793 |       0 |  128 |   619 |      0 |      0 |    0 |          0 |
+|     (PUBLIC_SAMPLER)        |                       gen_a_ext |         55 |         55 |       0 |    0 |     9 |      0 |      0 |    0 |          0 |
+|     genblk2[0].SAMPLER_A    |                   sampler_a_ext |        952 |        888 |       0 |   64 |   305 |      0 |      0 |    0 |          0 |
+|     genblk2[1].SAMPLER_A    |               sampler_a_ext_105 |        914 |        850 |       0 |   64 |   305 |      0 |      0 |    0 |          0 |
+|   SECRET_SAMPLER            |                           gen_s |       1694 |       1630 |       0 |   64 |   391 |      0 |      0 |    0 |          0 |
+|     (SECRET_SAMPLER)        |                           gen_s |         43 |         43 |       0 |    0 |    10 |      0 |      0 |    0 |          0 |
+|     genblk2[0].SAMPLER_S    |                       sampler_s |       1651 |       1587 |       0 |   64 |   381 |      0 |      0 |    0 |          0 |
+|   genblk1[0].KECCAK         |                      keccak_top |       5971 |       5971 |       0 |    0 |  4458 |      0 |      0 |    0 |          0 |
+|     control_gen             |               keccak_control_84 |       1352 |       1352 |       0 |    0 |   102 |      0 |      0 |    0 |          0 |
+|     datapath_gen            |              keccak_datapath_85 |       4619 |       4619 |       0 |    0 |  4356 |      0 |      0 |    0 |          0 |
+|   genblk1[1].KECCAK         |                    keccak_top_5 |       6046 |       6046 |       0 |    0 |  4458 |      0 |      0 |    0 |          0 |
+|     control_gen             |               keccak_control_63 |       1415 |       1415 |       0 |    0 |   102 |      0 |      0 |    0 |          0 |
+|     datapath_gen            |              keccak_datapath_64 |       4631 |       4631 |       0 |    0 |  4356 |      0 |      0 |    0 |          0 |
+|   genblk1[2].KECCAK         |                    keccak_top_6 |       6862 |       6862 |       0 |    0 |  4460 |      0 |      0 |    0 |          0 |
+|     control_gen             |                  keccak_control |       1912 |       1912 |       0 |    0 |   104 |      0 |      0 |    0 |          0 |
+|     datapath_gen            |                 keccak_datapath |       4950 |       4950 |       0 |    0 |  4356 |      0 |      0 |    0 |          0 |
+|   genblk2[0].OPERATOR       |                operation_module |       5185 |       4927 |       0 |  258 |  3222 |      0 |      0 |    0 |          8 |
+|     (genblk2[0].OPERATOR)   |                operation_module |        178 |        160 |       0 |   18 |    60 |      0 |      0 |    0 |          0 |
+|     ADDR                    |                 address_unit_24 |        343 |        343 |       0 |    0 |    87 |      0 |      0 |    0 |          0 |
+|     BF_CIRCUIT              |                 butterfly2x2_25 |       3224 |       3076 |       0 |  148 |  2265 |      0 |      0 |    0 |          8 |
+|     DELAY_TWIDDLE           |                     NTT_PIPO_26 |        209 |        117 |       0 |   92 |    92 |      0 |      0 |    0 |          0 |
+|     FIFO                    |                     ntt_fifo_27 |        862 |        862 |       0 |    0 |   626 |      0 |      0 |    0 |          0 |
+|     TWIDDLE_RAM1            |                dual_port_rom_28 |        184 |        184 |       0 |    0 |    46 |      0 |      0 |    0 |          0 |
+|     TWIDDLE_RAM2            |                dual_port_rom_29 |        185 |        185 |       0 |    0 |    46 |      0 |      0 |    0 |          0 |
+|   genblk2[1].OPERATOR       |              operation_module_7 |       5304 |       5046 |       0 |  258 |  3222 |      0 |      0 |    0 |          8 |
+|     (genblk2[1].OPERATOR)   |              operation_module_7 |        116 |         98 |       0 |   18 |    60 |      0 |      0 |    0 |          0 |
+|     ADDR                    |                    address_unit |        301 |        301 |       0 |    0 |    87 |      0 |      0 |    0 |          0 |
+|     BF_CIRCUIT              |                    butterfly2x2 |       3249 |       3101 |       0 |  148 |  2265 |      0 |      0 |    0 |          8 |
+|     DELAY_TWIDDLE           |                        NTT_PIPO |        209 |        117 |       0 |   92 |    92 |      0 |      0 |    0 |          0 |
+|     FIFO                    |                        ntt_fifo |       1060 |       1060 |       0 |    0 |   626 |      0 |      0 |    0 |          0 |
+|     TWIDDLE_RAM1            |                   dual_port_rom |        184 |        184 |       0 |    0 |    46 |      0 |      0 |    0 |          0 |
+|     TWIDDLE_RAM2            |                 dual_port_rom_8 |        185 |        185 |       0 |    0 |    46 |      0 |      0 |    0 |          0 |
++-----------------------------+---------------------------------+------------+------------+---------+------+-------+--------+--------+------+------------+
+
+

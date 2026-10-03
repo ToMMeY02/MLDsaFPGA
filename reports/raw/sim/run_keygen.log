@@ -1,0 +1,96 @@
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sat Oct  3 18:09:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/s_keygen/xsim_script.tcl
+# xsim {s_keygen} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+ML-DSA-II.KeyGen, KAT # 0 completed in                 4871 clock cycles
+ML-DSA-II.KeyGen, KAT # 1 completed in                 4875 clock cycles
+ML-DSA-II.KeyGen, KAT # 2 completed in                 4873 clock cycles
+ML-DSA-II.KeyGen, KAT # 3 completed in                 4876 clock cycles
+ML-DSA-II.KeyGen, KAT # 4 completed in                 4868 clock cycles
+ML-DSA-II.KeyGen, KAT # 5 completed in                 4878 clock cycles
+ML-DSA-II.KeyGen, KAT # 6 completed in                 4873 clock cycles
+ML-DSA-II.KeyGen, KAT # 7 completed in                 4871 clock cycles
+ML-DSA-II.KeyGen, KAT # 8 completed in                 4873 clock cycles
+ML-DSA-II.KeyGen, KAT # 9 completed in                 4874 clock cycles
+ML-DSA-II.KeyGen, KAT #10 completed in                 4871 clock cycles
+ML-DSA-II.KeyGen, KAT #11 completed in                 4865 clock cycles
+ML-DSA-II.KeyGen, KAT #12 completed in                 4869 clock cycles
+ML-DSA-II.KeyGen, KAT #13 completed in                 4877 clock cycles
+ML-DSA-II.KeyGen, KAT #14 completed in                 4873 clock cycles
+ML-DSA-II.KeyGen, KAT #15 completed in                 4874 clock cycles
+ML-DSA-II.KeyGen, KAT #16 completed in                 4869 clock cycles
+ML-DSA-II.KeyGen, KAT #17 completed in                 4875 clock cycles
+ML-DSA-II.KeyGen, KAT #18 completed in                 4870 clock cycles
+ML-DSA-II.KeyGen, KAT #19 completed in                 4868 clock cycles
+ML-DSA-II.KeyGen, KAT #20 completed in                 4874 clock cycles
+ML-DSA-II.KeyGen, KAT #21 completed in                 4870 clock cycles
+ML-DSA-II.KeyGen, KAT #22 completed in                 4870 clock cycles
+ML-DSA-II.KeyGen, KAT #23 completed in                 4876 clock cycles
+ML-DSA-II.KeyGen, KAT #24 completed in                 4874 clock cycles
+Moving to ML-DSA-III.KeyGen. ML-DSA-II completed in avg.        4872 clock cycles
+ML-DSA-III.KeyGen, KAT # 0 completed in                 8300 clock cycles
+ML-DSA-III.KeyGen, KAT # 1 completed in                 8291 clock cycles
+ML-DSA-III.KeyGen, KAT # 2 completed in                 8287 clock cycles
+ML-DSA-III.KeyGen, KAT # 3 completed in                 8287 clock cycles
+ML-DSA-III.KeyGen, KAT # 4 completed in                 8289 clock cycles
+ML-DSA-III.KeyGen, KAT # 5 completed in                 8297 clock cycles
+ML-DSA-III.KeyGen, KAT # 6 completed in                 8287 clock cycles
+ML-DSA-III.KeyGen, KAT # 7 completed in                 8299 clock cycles
+ML-DSA-III.KeyGen, KAT # 8 completed in                 8293 clock cycles
+ML-DSA-III.KeyGen, KAT # 9 completed in                 8289 clock cycles
+ML-DSA-III.KeyGen, KAT #10 completed in                 8291 clock cycles
+ML-DSA-III.KeyGen, KAT #11 completed in                 8289 clock cycles
+ML-DSA-III.KeyGen, KAT #12 completed in                 8295 clock cycles
+ML-DSA-III.KeyGen, KAT #13 completed in                 8287 clock cycles
+ML-DSA-III.KeyGen, KAT #14 completed in                 8287 clock cycles
+ML-DSA-III.KeyGen, KAT #15 completed in                 8289 clock cycles
+ML-DSA-III.KeyGen, KAT #16 completed in                 8295 clock cycles
+ML-DSA-III.KeyGen, KAT #17 completed in                 8291 clock cycles
+ML-DSA-III.KeyGen, KAT #18 completed in                 8293 clock cycles
+ML-DSA-III.KeyGen, KAT #19 completed in                 8291 clock cycles
+ML-DSA-III.KeyGen, KAT #20 completed in                 8293 clock cycles
+ML-DSA-III.KeyGen, KAT #21 completed in                 8299 clock cycles
+ML-DSA-III.KeyGen, KAT #22 completed in                 8299 clock cycles
+ML-DSA-III.KeyGen, KAT #23 completed in                 8289 clock cycles
+ML-DSA-III.KeyGen, KAT #24 completed in                 8289 clock cycles
+Moving to ML-DSA-V.KeyGen. ML-DSA-III completed in avg.        8291 clock cycles
+ML-DSA-V.KeyGen, KAT # 0 completed in                14039 clock cycles
+ML-DSA-V.KeyGen, KAT # 1 completed in                14037 clock cycles
+ML-DSA-V.KeyGen, KAT # 2 completed in                14036 clock cycles
+ML-DSA-V.KeyGen, KAT # 3 completed in                14032 clock cycles
+ML-DSA-V.KeyGen, KAT # 4 completed in                14033 clock cycles
+ML-DSA-V.KeyGen, KAT # 5 completed in                14029 clock cycles
+ML-DSA-V.KeyGen, KAT # 6 completed in                14027 clock cycles
+ML-DSA-V.KeyGen, KAT # 7 completed in                14034 clock cycles
+ML-DSA-V.KeyGen, KAT # 8 completed in                14035 clock cycles
+ML-DSA-V.KeyGen, KAT # 9 completed in                14039 clock cycles
+ML-DSA-V.KeyGen, KAT #10 completed in                14037 clock cycles
+ML-DSA-V.KeyGen, KAT #11 completed in                14036 clock cycles
+ML-DSA-V.KeyGen, KAT #12 completed in                14029 clock cycles
+ML-DSA-V.KeyGen, KAT #13 completed in                14033 clock cycles
+ML-DSA-V.KeyGen, KAT #14 completed in                14029 clock cycles
+ML-DSA-V.KeyGen, KAT #15 completed in                14033 clock cycles
+ML-DSA-V.KeyGen, KAT #16 completed in                14026 clock cycles
+ML-DSA-V.KeyGen, KAT #17 completed in                14027 clock cycles
+ML-DSA-V.KeyGen, KAT #18 completed in                14025 clock cycles
+ML-DSA-V.KeyGen, KAT #19 completed in                14037 clock cycles
+ML-DSA-V.KeyGen, KAT #20 completed in                14045 clock cycles
+ML-DSA-V.KeyGen, KAT #21 completed in                14027 clock cycles
+ML-DSA-V.KeyGen, KAT #22 completed in                14029 clock cycles
+ML-DSA-V.KeyGen, KAT #23 completed in                14036 clock cycles
+ML-DSA-V.KeyGen, KAT #24 completed in                14035 clock cycles
+ML-DSA.KeyGen testbench done. ML-DSA-V completed in avg.       14033 clock cycles
+$finish called at time : 6804520 ns : File "/home/tommey/pqc-fpga/ml-dsa/work/ml-dsa-osh/ref_combined/src_tb/tb_keygen_top.v" Line 603
+run: Time (s): cpu = 00:00:00.01 ; elapsed = 00:01:28 . Memory (MB): peak = 1315.047 ; gain = 0.000 ; free physical = 9300 ; free virtual = 19147
+exit
+INFO: xsimkernel Simulation Memory Usage: 265092 KB (Peak: 322168 KB), Simulation CPU Usage: 88460 ms
+INFO: [Common 17-206] Exiting xsim at Sat Oct  3 18:10:31 2026...

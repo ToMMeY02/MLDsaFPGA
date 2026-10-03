@@ -1,0 +1,66 @@
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sat Oct  3 18:09:50 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/s_sign/xsim_script.tcl
+# xsim {s_sign} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+ML-DSA-II.Sign, KAT # 0 completed in                29272 clock cycles
+ML-DSA-II.Sign, KAT # 1 completed in                35090 clock cycles
+ML-DSA-II.Sign, KAT # 2 completed in                41065 clock cycles
+ML-DSA-II.Sign, KAT # 3 completed in                29028 clock cycles
+ML-DSA-II.Sign, KAT # 4 completed in                22904 clock cycles
+ML-DSA-II.Sign, KAT # 5 completed in                12047 clock cycles
+ML-DSA-II.Sign, KAT # 6 completed in                17842 clock cycles
+ML-DSA-II.Sign, KAT # 7 completed in                29412 clock cycles
+ML-DSA-II.Sign, KAT # 8 completed in                12429 clock cycles
+ML-DSA-II.Sign, KAT # 9 completed in                23305 clock cycles
+ML-DSA-II.Sign, KAT #10 completed in                53034 clock cycles
+ML-DSA-II.Sign, KAT #11 completed in                12189 clock cycles
+ML-DSA-II.Sign, KAT #12 completed in                10970 clock cycles
+ML-DSA-II.Sign, KAT #13 completed in                29410 clock cycles
+ML-DSA-II.Sign, KAT #14 completed in                18224 clock cycles
+Moving to ML-DSA-III.Sign. ML-DSA-II completed in avg.       25081 clock cycles
+ML-DSA-III.Sign, KAT # 0 completed in                97833 clock cycles
+ML-DSA-III.Sign, KAT # 1 completed in                16291 clock cycles
+ML-DSA-III.Sign, KAT # 2 completed in                16190 clock cycles
+ML-DSA-III.Sign, KAT # 3 completed in                48636 clock cycles
+ML-DSA-III.Sign, KAT # 4 completed in                32394 clock cycles
+ML-DSA-III.Sign, KAT # 5 completed in                40525 clock cycles
+ML-DSA-III.Sign, KAT # 6 completed in                16179 clock cycles
+ML-DSA-III.Sign, KAT # 7 completed in                24301 clock cycles
+ML-DSA-III.Sign, KAT # 8 completed in                25142 clock cycles
+ML-DSA-III.Sign, KAT # 9 completed in                16179 clock cycles
+ML-DSA-III.Sign, KAT #10 completed in                16579 clock cycles
+ML-DSA-III.Sign, KAT #11 completed in                16180 clock cycles
+ML-DSA-III.Sign, KAT #12 completed in                24984 clock cycles
+ML-DSA-III.Sign, KAT #13 completed in                65313 clock cycles
+ML-DSA-III.Sign, KAT #14 completed in                57200 clock cycles
+Moving to ML-DSA-V.Sign. ML-DSA-III completed in avg.       34261 clock cycles
+ML-DSA-V.Sign, KAT # 0 completed in                25691 clock cycles
+ML-DSA-V.Sign, KAT # 1 completed in                25691 clock cycles
+ML-DSA-V.Sign, KAT # 2 completed in                37574 clock cycles
+ML-DSA-V.Sign, KAT # 3 completed in                49454 clock cycles
+ML-DSA-V.Sign, KAT # 4 completed in               108916 clock cycles
+ML-DSA-V.Sign, KAT # 5 completed in                49473 clock cycles
+ML-DSA-V.Sign, KAT # 6 completed in                97017 clock cycles
+ML-DSA-V.Sign, KAT # 7 completed in                85125 clock cycles
+ML-DSA-V.Sign, KAT # 8 completed in                97012 clock cycles
+ML-DSA-V.Sign, KAT # 9 completed in                25672 clock cycles
+ML-DSA-V.Sign, KAT #10 completed in                73244 clock cycles
+ML-DSA-V.Sign, KAT #11 completed in                37592 clock cycles
+ML-DSA-V.Sign, KAT #12 completed in                37599 clock cycles
+ML-DSA-V.Sign, KAT #13 completed in                37578 clock cycles
+ML-DSA-V.Sign, KAT #14 completed in                25691 clock cycles
+ML-DSA.Sign testbench done. ML-DSA-V completed in avg.       54221 clock cycles
+$finish called at time : 17037 us : File "/home/tommey/pqc-fpga/ml-dsa/work/ml-dsa-osh/ref_combined/src_tb/tb_sign_top.v" Line 863
+run: Time (s): cpu = 00:00:00.03 ; elapsed = 00:03:19 . Memory (MB): peak = 1315.047 ; gain = 0.000 ; free physical = 7371 ; free virtual = 17235
+exit
+INFO: xsimkernel Simulation Memory Usage: 330904 KB (Peak: 363676 KB), Simulation CPU Usage: 199660 ms
+INFO: [Common 17-206] Exiting xsim at Sat Oct  3 18:13:11 2026...

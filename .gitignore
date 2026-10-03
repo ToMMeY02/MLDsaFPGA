@@ -1,0 +1,30 @@
+# Vivado project files and run directories
+*.xpr
+.Xil/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+vivado_run/
+xsim.dir/
+build/
+
+# Binaries
+*.bit
+*.ltx
+*.xsa
+*.elf
+*.dcp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp (logs are ignored, except the committed simulation logs behind the reported numbers)
+*.log
+*.jou
+vivado_pid*.str
+!reports/raw/sim/*.log
